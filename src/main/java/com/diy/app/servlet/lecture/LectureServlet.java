@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/lectures")
+//@WebServlet("/lectures")
 public class LectureServlet extends HttpServlet {
 
   private final LectureService lectureService = new LectureService();
